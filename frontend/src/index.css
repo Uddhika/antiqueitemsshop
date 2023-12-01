@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-tel-input .form-control{
+    @apply !w-full py-6 !text-base;
+}
+
+.opt-container{
+    @apply flex justify-between gap-6;
+}
+
+.opt-container input {
+    @apply !mr-0 flex-1 py-5 outline outline-slate-300 outline-1 hover:outline-2;
+}
+
+#root{
+    padding:0%;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  }
+
+th{
+background-color: rgb(79 70 229 / 1);
+ padding-top: 1em;
+ padding-bottom: 1em;
+ padding-left: 1em;
+ text-align: left;
+ color: white;
+  
+}
+
+td{
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.184);
+}
+
